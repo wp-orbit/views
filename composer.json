@@ -1,0 +1,23 @@
+{
+  "name": "wp-orbit/views",
+  "description": "Integrate Blade views into WordPress",
+  "type": "wordpress-plugin-component",
+  "authors": [
+    {
+      "name": "Marty Eason",
+      "email": "dev@zawntech.com",
+      "role": "Developer",
+      "homepage": "http://zawntech.com"
+    }
+  ],
+  "require": {
+    "philo/laravel-blade": "^3.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "WPOrbit\\Views\\": "/code"
+    }
+  }
+}
